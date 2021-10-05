@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     forced-color-adjust: black;
 }
 body{
@@ -30,131 +30,174 @@ li{
     color:rgb(43, 39, 39);
 }
 span,p,h2{
-    color: rgb(248, 69, 99);
+    color: black;
 }
 h1,ul{
     color: black;
     margin-top: 10px;
     margin-left: 10px;
 }
-.navpannel .line1{
-    height: 1px;
-    background: black;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.navpannel ul h3{
+    margin-right: 130px;
 }
-.navpannel{
-    width: 15vw;
-    min-height: 100vh;
+.navpannel ul .line{
+    height: 0.1px;
+    background-color: rgb(189, 186, 186);
+    width: 200px;
+}
+.namecard{
+    width: 12vw;
+    height: 8vh;
     position: fixed;
     background: white;
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
+    top: 12%;
+    left: 20%;
+    align-items: center;
+    justify-content: left;
+    box-shadow: 2px 2px 2px rgb(51, 48, 48);
 }
-.navpannel .name{
-    height: 10vh;
+.namecard h4{
+    align-items: center;
+}
+.namecard h3{
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.navpannel{
+    width: 15vw;
+    min-height: 38vh;
+    position: fixed;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    top: 12%;
+    left: 1%;
     align-items: center;
     justify-content: center;
+    box-shadow: 2px 2px 2px rgb(51, 48, 48);
 }
 .navpannel li{
     font-size: medium;
     padding: 5px 30px;
     display: flex;
     align-items: center;
+    
 }
 .navpannel li:hover{
     background: rgb(233, 229, 229);
     color: rgb(53, 182, 233);
-    transform:scale(1.2);
+    transform:scale(1.1);
+    border-left-color:rgb(53, 182, 233) ;
+    margin-left: 1px;
+}
+.navpannel2{
+    width: 15vw;
+    min-height: 18vh;
+    position: fixed;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    top: 60%;
+    left: 1%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px rgb(51, 48, 48);
+
+}
+.navpannel2 li{
+    font-size: medium;
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+}
+.navpannel2 ul .line{
+    height: 0.1px;
+    background-color: rgb(189, 186, 186);
+    width: 200px;
+}
+.navpannel2 ul h3{
+    margin-right: 130px;
+}
+.navpannel2 li:hover{
+    background: rgb(233, 229, 229);
+    color: rgb(53, 182, 233);
+    transform:scale(1.1);
+    border-left-color:rgb(53, 182, 233) ;
+    margin-left: 1px;
+}
+.navpannel3{
+    width: 15vw;
+    min-height: 8vh;
+    position: fixed;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    top: 79%;
+    left: 1%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px rgb(51, 48, 48);
+}
+.navpannel3 li{
+    font-size: medium;
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+}
+.navpannel3 li:hover{
+    background: rgb(233, 229, 229);
+    color: rgb(53, 182, 233);
+    transform:scale(1.1);
+    border-left-color:rgb(53, 182, 233) ;
+    margin-left: 1px;
 }
 
-/* cards */
-/* card1 */
-.classcard{
-    display: grid;
-    margin-left: 300px;
-    grid-template-rows: 100px 100px 80px ;
-    grid-template-columns: 216px;
-    grid-template-areas: "image" "text" "stats";
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 10px;
-    background: gray;
-    box-shadow: 5px 5px 15px rgb(51, 48, 48);
-    text-align: center;
-}
-.classcard .cardimage{
-    grid-area: image;
-}
-.classcard .cardtext{
-    grid-area: text;
-}
-.classcard .cardstats{
-    grid-area: stats;
-}
-.classcard .cardtext p{
-    color: white;
-}
-.classcard .cardtext h2{
-    color: white;
-}
-
-/* card2 */
-.classcard2{
-    display: grid;
-    margin-left: 120px;
-    grid-template-rows: 100px 100px 80px ;
-    grid-template-columns: 216px;
-    grid-template-areas: "image" "text" "stats";
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 10px;
-    background: gray;
-    box-shadow: 5px 5px 15px rgb(51, 48, 48);
-    text-align: center;
-}
-.classcard2 .cardimage2{
-    grid-area: image;
-}
-.classcard2 .cardtext2{
-    grid-area: text;
-}
-.classcard2 .cardtext2 p{
-    color: white;
-}
-.classcard2 .cardtext2 h2{
-    color: white;
-}
-.classcard2 .cardstats2{
-    grid-area: stats;
-}
-/* card3 */
-.classcard3{
-    display: grid;
-    margin-left: 120px;
-    grid-template-rows: 100px 100px 80px ;
-    grid-template-columns: 216px;
-    grid-template-areas: "image" "text" "stats";
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 10px;
-    background: gray;
-    box-shadow: 5px 5px 15px rgb(51, 48, 48);
-    text-align: center;
-}
-.classcard3 .cardimage3{
-    grid-area: image;
-}
-.classcard3 .cardtext3{
-    grid-area: text;
-}
-.classcard3 .cardtext3 p{
-    color: white;
-}
-.classcard3 .cardtext3 h2{
-    color: white;
-}
-.classcard3 .cardstats3{
-    grid-area: stats;
-}
 /*search bar*/
+/* notification icon */
+.icon-button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: black;
+    background: #dddd;
+    margin: 25px;
+    margin-top: 30px;
+    right: -95%;
+}
+.icon-button__badge{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.icon-button:hover{
+    cursor: pointer;
+
+}
+.icon-button:active{
+    color:#dddd;
+    background: bisque;
+}
+
+/* navbar */
 .empty{
     position: absolute;
     right: 0;
@@ -164,7 +207,7 @@ h1,ul{
 .empty .header{
     position: fixed;
     right: 0;
-    width: 85vw;
+    width: 100vw;
     top: 0;
     height: 10vh;
     background: white;
@@ -177,109 +220,96 @@ h1,ul{
     display: flex;
     align-items: center;
 }
-.empty .header .nav .search{
-    flex: 3;
-    display: flex;
-    justify-content: center;
-}
-.empty .header .nav .search input{
-    border: none;
-    background: #f1f1f1;
-    padding: 10px;
-    width: 50%;
-    font-size: large;
-    color: rgb(150, 146, 146);
-}
-.empty .header .nav .search button{
-    width: 40px;
-    height: 40px;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.empty .header .nav .search button img{
-    width: 30px;
-    height: 30px;
-    background: rgb(248, 69, 99);
-}
 .empty .header .nav .user img{
     width: 40px;
     height: 40px;
 }
-/* profile icon */
 
-.wrapper{ 
-    position: absolute;
-    top: 4.5%;
-    left: 90%;
-    transform: translate(-50%,-50%);
-  }
-  
-  .wrapper .navbar{
-    width: 90px;
-    background: #fff;
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 0px;
-    border-radius: 50px;
-  }
-  
-  .wrapper .navbar ul li a{
-    color: #644def;
-  }
-  
-  .wrapper .navbar .left ul,
-  .wrapper .navbar .right ul li a{
+/* progress bar */
+.skill{
+    width: 160px;
+    height: 160px;
+    /* background: red; */
+    position: relative;
+    left: 45%;
+    top: -10%;
+}
+.skill h4{
+    margin-left: 40%;
+    margin-top: 10%;
+    font-size: x-large;
+}
+.outer{
+    height: 160px;
+    width: 160px;
+
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+.inner{
+    height: 120px;
+    width: 120px;
     display: flex;
     align-items: center;
-    height: 40px;
-  }
-  
-  .wrapper .navbar .left ul li,
-  .wrapper .navbar .right img{
-    margin: 0 10px;
-  }
-  
-  .wrapper .navbar .right a{
-    text-align: right;
-  }
-  
-  .wrapper .navbar .right a span{
-    font-size: 10px;
-  }
-  
-  .wrapper .navbar .right ul li{
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255, 255,0.7),
+                -0.5px -0.5px 0px rgba(255,255, 255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+}
+#number{
+    font-weight: 600px;
+    color: black;
+}
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+svg{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 300;
+    }
+}
+/* progress bar 2 */
+.skill2{
+    width: 160px;
+    height: 160px;
+    /* background: red; */
     position: relative;
-  }
-  
-  .wrapper .navbar .right ul li .dropdown{
-    position: absolute;
-    top: 60px;
-    right: -19px;
-    background: rgb(235, 226, 226);
-    padding: 10px 25px;
-    border-radius: 5px;
-    display: none;
-  }
-  
-  .wrapper .navbar .right ul li .dropdown .fas{
-    margin-right: 10px;
-  }
-  
-  .wrapper .navbar .right ul li .dropdown:before{
-    content: "";
-    position: absolute;
-    top: -20px;
     left: 50%;
-    transform: translateX(-50%);
-    border: 10px solid;
-    border-color: transparent transparent rgb(235, 226, 226) transparent;
-  }
-  
-  .wrapper .navbar .right ul li.active .dropdown{
-    display: block;
-  }
-  .wrapper .navbar .right ul li .profileimage img{
-      width: 50%;
-  }
+    top: -10%;
+}
+.outer2{
+    height: 160px;
+    width: 160px;
+
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+.inner2{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255, 255,0.7),
+                -0.5px -0.5px 0px rgba(255,255, 255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);

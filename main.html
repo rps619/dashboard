@@ -6,105 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
+
 <!-- side navigation pannel -->
+    <div class="namecard">
+       <h3>Student</h3>
+       <h4>student name</h4>
+    </div>
     <div class="navpannel">
-        <div class="name">
-            <h1>BTCP</h1>
-        </div>
-        <ul><h3>Core</h3></ul>
+        <ul><h3><u>Core</u></h3></ul>
         <ul>
-            <li><a href="#"></a><img src="speed.png" alt="">&nbsp &nbspHome</li>
-            <li><a href="#"></a><img src="speed.png" alt="">&nbsp &nbspStudy plan</li>
-            <li><a href="#"></a><img src="speed.png" alt="">&nbsp &nbspSubjects</li>
-            <li><a href="#"></a><img src="speed.png" alt="">&nbsp &nbspFlashcards</li>
-            <li><a href="#"></a><img src="speed.png" alt="">&nbsp &nbspPractice</li>
-            <li><a href="#"></a><img src="speed.png" alt="">&nbsp &nbspMock Exam</li>
-            <li><a href="#"></a><img src="speed.png" alt="">&nbsp &nbspFinal Exam</li>
-            <div class="line1"></div>
-        <ul><h3>Extra</h3></ul>
+            <li><a href="#"></a><img src="home.png" alt="">&nbsp &nbspHome</li>
+            <div class="line"></div>
+            <li><a href="#"></a><img src="study.png" alt="">&nbsp &nbspStudy plan</li>
+            <div class="line"></div>
+            <li><a href="#"></a><img src="subject.png" alt="">&nbsp &nbspSubjects</li>
+            <div class="line"></div>
+            <li><a href="#"></a><img src="flash-cards.png" alt="">&nbsp &nbspFlashcards</li>
+            <div class="line"></div>
+            <li><a href="#"></a><img src="practice.png" alt="">&nbsp &nbspPractice</li>
+            <div class="line"></div>
+            <li><a href="#"></a><img src="mockexam.png" alt="">&nbsp &nbspMock Exam</li>
+            <div class="line"></div>
+            <li><a href="#"></a><img src="test.png" alt="">&nbsp &nbspFinal Exam</li>
             <ul>
-                <li><img src="open-book.png" alt="">&nbsp &nbspGame Center</li>
-                <li><img src="open-book.png" alt="">&nbsp &nbspDiscussion</li>
-            </ul>
-            <div class="line1"></div>
-            <ul><li><img src="support.png" alt="">&nbsp &nbspSupport</li></ul>
+    </div>
+    <div class="navpannel2">
+        <ul><h3><u>Extra</u></h3></ul>
+        <ul>
+            <li><img src="games.png" alt="">&nbsp &nbspGame Center</li>
+            <div class="line"></div>
+            <li><img src="discuss.png" alt="">&nbsp &nbspDiscussion</li>
         </ul>
     </div>
-<!-- cards -->
-     <!-- card1 -->
-    <div class="classcard">
-        <div class="cardstats"></div>
-        <div class="cardimage"></div>
-        <div class="cardtext">
-            <P>*content*</P>
-            <h2>card one</h2>
-        </div>
+    <div class="navpannel3">
+        <ul><li><img src="support (1).png" alt="">&nbsp &nbspSupport</li></ul>
+            </ul>
     </div>
-    <!-- card2 -->
-    <div class="classcard2">
-        <div class="cardstats2"></div>
-        <div class="cardimage2"></div>
-        <div class="cardtext2">
-            <P>*content*</P>
-            <h2>card one</h2>
-        </div>
-    </div>
-    <!-- card3 -->
-    <div class="classcard3">
-        <div class="cardstats3"></div>
-        <div class="cardimage3"></div>
-        <div class="cardtext3">
-            <P>*content*</P>
-            <h2>card one</h2>
-        </div>
-    </div>
-<!-- navigation bar -->
-    <div class="empty">
-        <div class="header">
-            <div class="nav">
-                <div class="search">
-                    <input type="text" value="search...">
-                    <button type="submit"><img src="search.png" alt=""></button>
-                </div>
-                <div class="user">
-                    <img src="notifications.png" alt="">
-                </div>
-                </div>
+<!-- notification bar -->
+  <!-- navbar -->
+  <div class="empty">
+    <div class="header">
+        <div class="nav">
+            <button type="button" class="icon-button">
+                <span class="material-icons">notifications</span>
+                <span class="icon-button__badge">20</span>
+              </button>
             </div>
         </div>
     </div>
-    <!-- profile icon -->
-    <div class="wrapper">
-        <div class="navbar">
-            <div class="right">
-                <ul>
-                  <li>
-                    <a href="#">
-                     
-                      <div class="profileimage"><img src="user.png" alt="" width="100%"></div>
-                      <i class="fas fa-angle-down"></i>
-                    </a>
-                     
-                    <div class="dropdown">
-                        <ul>
-                          <li><a href="#"><i class="fas fa-user"></i>content1</a></li>
-                          <li><a href="#"><i class="fas fa-sliders-h"></i>content2</a></li>
-                          <li><a href="#"><i class="fas fa-sign-out-alt"></i>content3</a></li>
-                          <li><a href="#"><i class="fas fa-sign-out-alt"></i>content4</a></li>
-                          <li><a href="#"><i class="fas fa-sign-out-alt"></i>content5</a></li>
-                      </ul>
-                    </div> 
-                  </li>
-              </ul>
+</div>
+    <!-- progress bar -->
+    <div class="skill">
+        <div class="outer">
+            <div class="inner">
+                <div id="number"></div>
             </div>
         </div>
-    </div>	
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+               <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+               </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+    </svg>
+        <h4>text1</h4>
+    </div>
+    <!-- progress bar 2 -->
+        <div class="skill2">
+            <div class="outer2">
+                <div class="inner2">
+                    <div id="number">40%</div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                <defs>
+                <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63" />
+                    <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+        </svg>
+        </div>
+
     <script>
-        document.querySelector(".right ul li").addEventListener("click", function(){
-              this.classList.toggle("active");
-        });
+
+        let number= document.getElementById("number");
+        let counter=0;
+        setInterval(()=>{
+            if(counter== 40){
+                clearInterval();
+            }else{counter+=1;
+                 number.innerHTML=counter+"%";}
+        }, 20)
     </script>
     
 </body>
