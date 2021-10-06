@@ -229,13 +229,13 @@ h1,ul{
 .skill{
     width: 160px;
     height: 160px;
-    /* background: red; */
     position: relative;
     left: 45%;
     top: -10%;
+    margin-left: 50px;
 }
 .skill h4{
-    margin-left: 40%;
+    margin-left: 32%;
     margin-top: 10%;
     font-size: x-large;
 }
@@ -280,36 +280,6 @@ svg{
 }
 @keyframes anim{
     100%{
-        stroke-dashoffset: 300;
+        stroke-dashoffset: 0;
     }
 }
-/* progress bar 2 */
-.skill2{
-    width: 160px;
-    height: 160px;
-    /* background: red; */
-    position: relative;
-    left: 50%;
-    top: -10%;
-}
-.outer2{
-    height: 160px;
-    width: 160px;
-
-    border-radius: 50%;
-    padding: 20px;
-    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-                -6px -6px 10px -1px rgba(255,255,255,0.7);
-}
-.inner2{
-    height: 120px;
-    width: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
-                inset -4px -4px 6px -1px rgba(255,255, 255,0.7),
-                -0.5px -0.5px 0px rgba(255,255, 255,1),
-                0.5px 0.5px 0px rgba(0,0,0,0.15),
-                0px 12px 10px -10px rgba(0,0,0,0.05);

@@ -59,7 +59,7 @@
         </div>
     </div>
 </div>
-    <!-- progress bar -->
+<!-- progress bar -->
     <div class="skill">
         <div class="outer">
             <div class="inner">
@@ -77,10 +77,30 @@
     </svg>
         <h4>text1</h4>
     </div>
-    <!-- progress bar 2 -->
-        <div class="skill2">
-            <div class="outer2">
-                <div class="inner2">
+<!-- progress bar  -->
+<!-- progress bar 2 -->
+     <div class="skill">
+        <div class="outer">
+            <div class="inner">
+                <div id="number">40%</div>
+            </div>
+        </div>
+         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+            <linearGradient id="GradientColor">
+                <stop offset="0%" stop-color="#e91e63" />
+                <stop offset="100%" stop-color="#673ab7" />
+            </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+    </svg>
+        <h4>text2</h4>
+    </div>
+     <!-- progress bar 2 -->
+     <!-- progress bar 3 -->
+        <div class="skill">
+            <div class="outer">
+                <div class="inner">
                     <div id="number">40%</div>
                 </div>
             </div>
@@ -93,19 +113,9 @@
                 </defs>
                 <circle cx="80" cy="80" r="70" stroke-linecap="round" />
         </svg>
+            <h4>text3</h4>
         </div>
-
-    <script>
-
-        let number= document.getElementById("number");
-        let counter=0;
-        setInterval(()=>{
-            if(counter== 40){
-                clearInterval();
-            }else{counter+=1;
-                 number.innerHTML=counter+"%";}
-        }, 20)
-    </script>
-    
+    <!-- progress bar 3 -->
+    <script src="working.js"></script>
 </body>
 </html>
